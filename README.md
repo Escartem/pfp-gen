@@ -4,10 +4,9 @@
 ### When someone create an account, I don't know if the profile picture is generated or picked from a list but if it's from a list, then this could be used to give more variety
 
 ## Usage
-Download the latest release from the release page.
-And run the file from command line like this
+Download the source code and run the file from command line like this
 ```bash
-pfp-gen.exe --h
+python main.py --h
 ```
 This will show the help menu about arguments for the app
 
