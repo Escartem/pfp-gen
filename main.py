@@ -3,8 +3,6 @@ from time import sleep
 from random import randint
 from argparse import ArgumentParser
 
-import pkg_resources.py2_warn
-
 parser = ArgumentParser()
 parser.add_argument("--show", action="store_true", help="Generate and show the image")
 parser.add_argument("--save", action="store_true", help="Generate and save the image in the app directory")
