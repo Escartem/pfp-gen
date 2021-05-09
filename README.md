@@ -6,9 +6,11 @@
 ## Usage
 Download the source code and run the file from command line like this
 ```bash
-python main.py --h
+python main.py --arguments
 ```
-This will show the help menu about arguments for the app
+( This script uses PIL and Argparse install them with ```pip install pillow; argparse``` if you don't have them )
+
+Use `--h` to see the help menu about arguments for the app (```python main.py --h```)
 
 You can use `--show` to generate and show the image
 
