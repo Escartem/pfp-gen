@@ -1,5 +1,4 @@
 from PIL import Image
-from time import sleep
 from random import randint
 from argparse import ArgumentParser
 
@@ -14,6 +13,7 @@ class Picture:
         self.img = Image.new('RGB', (420, 420), "white")
         self.pixels = self.img.load()
 
+        # TODO make this usefull
         self.offset_x = 22.5
         self.offset_y = 22.5
 
@@ -54,14 +54,12 @@ class Picture:
         if args.save:
             self.img.save('generated' + str(randint(100, 999)) + '.png')
             print("Saved image !")
-        sleep(3)
         exit()
 
 
 if (not args.show) and (not args.save):
     print("No arguments specified")
     print("Please select at least one !")
-    sleep(3)
     exit()
 else:
     pic = Picture()
