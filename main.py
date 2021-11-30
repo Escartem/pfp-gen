@@ -24,7 +24,7 @@ class Picture:
 
     def gen(self, size):
         size = size
-        color = (randint(0, 255), randint(0, 255), randint(0, 255))
+        color = (randint(20, 235), randint(20, 235), randint(20, 235))
 
         # generate line 2 and 4
         for y in range(5):
